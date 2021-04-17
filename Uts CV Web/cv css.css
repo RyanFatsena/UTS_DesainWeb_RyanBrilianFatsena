@@ -1,0 +1,443 @@
+@font-face {
+    font-family: 'font2';
+    src: url('Img/Winkle-Regular.ttf')
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header-container {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(25, 124, 147, 0.02);
+    background-color: #4bc5e1;
+}
+
+
+.logo img {
+    position: relative;
+    transform: uppercase;
+    display: flex;
+    width: 55px;
+    height: 55px;
+    margin-right: 8px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1e6e96;
+    letter-spacing: 1px;
+}
+
+.hi {
+    color: #2f84a9;
+    font-weight: 500;
+    font-size: 15px;
+    border-bottom: 2px solid #468da7;
+}
+
+ul li a:hover {
+    background-color: #aee0ff;
+    color: #218cb3;
+    box-shadow: 5px 10px 30px rgba(38, 144, 155, 0.3);
+    transition: all ease 0.2s;
+}
+
+
+.fotoku img {
+    object-fit: contain;
+    height: 350px;
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    transform: translateX(-60%);
+}
+
+#main-container {
+    width: 500px;
+}
+
+#main-bg {
+    width: auto;
+    height: auto;
+}
+
+.main-text-container {
+    position: absolute;
+    left: 40%;
+    top: 68%;
+    transform: translate(-45%, -100%);
+}
+
+.main-text-container h1 {
+    font-size: 50px;
+    color: #1c3b48;
+    margin: 0px 0px 10px 0px;
+    line-height: 30px;
+}
+
+.main-text-container p {
+    color: #1a6687;
+}
+
+.see-cv {
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d9e8f0;
+    background-color: #2694b6;
+    border-radius: 20px;
+    box-shadow: 4px 10px 30px rgba(48, 177, 199, 0.2);
+}
+
+#about-me-container {
+    position: relative;
+    width: 80%;
+    height: 5%;
+    background: #c2dcf4;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(20, 68, 94, 0.2);
+    display: flex;
+    margin: 16% auto 20px auto;
+    align-items: center;
+}
+
+#about-fotoku img {
+    width: 350px;
+    height: 350px;
+}
+
+#aboutme {
+    position: relative;
+    text-align: center;
+    margin-top: -400px;
+    color: rgba(160, 160, 249, 0.475);
+}
+
+.about-me-text {
+    position: relative;
+    width: 450px;
+    top: 5%;
+    font-family: arial;
+    font-size: 16px;
+    color: #126a85;
+}
+
+#skills {
+    position: relative;
+    text-transform: uppercase;
+    top: 240px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto auto 50px auto;
+
+}
+
+.skill-text {
+    width: 400px;
+}
+
+.skill-text h4 {
+    color: #0d708e;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: arial;
+    line-height: 0px;
+    font-family: font2;
+}
+
+.skill-text p {
+    color: #5f8fac;
+    font-size: 14px;
+    margin-left: 29px;
+    font-family: arial;
+}
+
+.skill-heading p {
+    color: #0c415e;
+    font-size: 55px;
+    margin-top: 100px;
+    margin-left: 75px;
+    font-family: font2;
+}
+
+.skill-container {
+    margin-top: 30px;
+}
+
+.skill-box {
+    margin: 15px 0px;
+    display: flex;
+}
+
+.skill-icon {
+    width: 42px;
+    height: 40px;
+    margin-top: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-size: 20px;
+}
+
+.skill-icon img {
+    width: 45px;
+    height: 45px;
+}
+
+
+#experience {
+    position: relative;
+    transform: uppercase;
+    top: 280px;
+    height: 870px;
+    font-family: font2;
+    background-image: url('Img/crh.jpg');
+    padding: 2% 10% 0px 10%;
+}
+
+.experience-text {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 90px;
+    font-family: font2;
+    color: #176b98;
+    font-size: 60px;
+    line-height: 0px;
+}
+
+.box-container {
+    justify-content: space-between;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    position: relative;
+    margin-top: 90px;
+    top: 30px;
+    left: 50px;
+    height: 280px;
+    width: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    float: left;
+    flex-direction: column;
+    margin: 23px 23px;
+    border-radius: 10px;
+}
+
+.box-1 p,
+.box-2 p,
+.box-3 p,
+.box-4 p {
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    top: 0px;
+    font-family: font2;
+    color: #0d678e;
+    width: 230px;
+}
+
+.box-1 {
+    background-color: rgba(247, 217, 227, 0.365);
+}
+
+.box-2 {
+    background-color: rgba(198, 223, 238, 0.687);
+}
+
+.box-3 {
+    background-color: rgba(212, 219, 227, 0.666);
+}
+
+.box-4 {
+    background-color: rgba(180, 227, 232, 0.666);
+}
+
+.box-1 ol,
+.box-2 ol,
+.box-3 ol,
+.box-4 ol {
+    position: relative;
+    font-family: font2;
+    font-size: 23px;
+    top: 10px;
+    color: #0d678e;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+}
+
+#achievement {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+    position: relative;
+}
+
+.achievement-heading {
+    color: rgb(146, 146, 211);
+    margin-top: 150px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-family: font2;
+    letter-spacing: 1px;
+    width: 70%;
+    background-color: rgb(200, 200, 245);
+    padding: 10px;
+}
+
+.achievement-box-container {
+    position: relative;
+    width: 70%;
+    background-color: rgb(224, 224, 245);
+    border-radius: 10px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.achievement-icon {
+    width: 42px;
+    height: 40px;
+    margin-top: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.achievement-icon img {
+    width: 45px;
+    height: 45px;
+}
+
+.achievement-box {
+    position: relative;
+    display: flex;
+    color: rgb(152, 160, 205);
+    font-family: font2;
+    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 20px 20px 20px;
+}
+
+.ach-fotoku img {
+    object-fit: contain;
+    height: 200px;
+    position: absolute;
+    bottom: 6%;
+    left: 75%;
+    transform: translateX(-60%);
+}
+
+.thanks-column {
+    position: relative;
+    top: 350px;
+    margin-bottom: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    height: 270px;
+    margin-top: 420px;
+    display: flex;
+    background-color: rgb(214, 214, 244);
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.contactme {
+    font-size: 50px;
+    font-family: font2;
+    color: rgb(8, 94, 125);
+    margin-bottom: 0px;
+}
+
+.ifyou {
+    font-size: 16px;
+    top: auto;
+    font-family: arial;
+    width: 600px;
+    text-align: center;
+    color: rgb(8, 84, 125);
+}
+
+.sosmed-icons {
+    display: flex;
+}
+
+.sosmed-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #daf2f7;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+
+.copyright {
+    font-size: 13px;
+    margin-top: 20px;
+    font-family: arial;
+    margin-bottom: 10%;
+    text-align: center;
+    color: rgb(8, 84, 125);
+}
